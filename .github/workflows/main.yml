@@ -2,7 +2,7 @@ name: Docker Image CI
 
 on:
   push:
-    branches: [ "v1" ]
+    branches: [ "v1", "v2" ]
 jobs:
   push_to_registry:
     name: Push Docker image to Docker Hub
